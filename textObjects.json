@@ -1,0 +1,170 @@
+[
+  {
+      "page": 1,
+      "paragraphs": [
+          {
+              "bbox": [
+                  45,
+                  131,
+                  326,
+                  29
+              ],
+              "content": "and Processing System"
+          },
+          {
+              "bbox": [
+                  44,
+                  217,
+                  501,
+                  63
+              ],
+              "content": "Welcome to the Document Upload and Processing System. This user guide will walk \nyou through the process of logging in, uploading documents, selecting operations, \nand editing your files within the platform. Follow these steps to make the most of \nour document processing features."
+          },
+          {
+              "bbox": [
+                  62,
+                  362,
+                  481,
+                  111
+              ],
+              "content": "1.\u200b Open the Marketing Site: Navigate to the marketing website for the \nplatform. \n2.\u200b Login: \n\u25cb\u200b Click on the Login button to be redirected to the login page. \n\u25cb\u200b If you are already registered, enter your login credentials to proceed. \n\u25cb\u200b If you are a new user, click on Sign Up to register a new account. \n3.\u200b After successful login or registration, you will be directed to your User"
+          },
+          {
+              "bbox": [
+                  63,
+                  588,
+                  463,
+                  30
+              ],
+              "content": "document upload. \n\u25cf\u200b For Returning Users: Your previous documents and their statuses will be"
+          },
+          {
+              "bbox": [
+                  44,
+                  681,
+                  322,
+                  22
+              ],
+              "content": "Step 3: Uploading a Document"
+          },
+          {
+              "bbox": [
+                  63,
+                  716,
+                  476,
+                  32
+              ],
+              "content": "1.\u200b Click on \"Add Document\": On the top right of the dashboard, click the Add \nDocument button to start uploading a file."
+          }
+      ]
+  },
+  {
+      "page": 2,
+      "paragraphs": [
+          {
+              "bbox": [
+                  62,
+                  72,
+                  483,
+                  79
+              ],
+              "content": "2.\u200b Document Type: A pop-up will appear. Select the Document Type (e.g., PDF, \nImage, etc.) from the list. \n3.\u200b File Upload: A second pop-up will appear where you can choose the \ndocument from your local storage. \n4.\u200b Operation Selection: Select the Operation you wish to perform on the"
+          },
+          {
+              "bbox": [
+                  99,
+                  167,
+                  447,
+                  60
+              ],
+              "content": "\u25cb\u200b Model: This option uses a pre-trained model to extract specific data \nfrom the uploaded document. \n\u25cb\u200b OCR (Optical Character Recognition): This operation will convert the \nPDF document into an editable text format."
+          },
+          {
+              "bbox": [
+                  62,
+                  230,
+                  473,
+                  32
+              ],
+              "content": "5.\u200b Confirm Upload: After selecting the operation and uploading your file, the \ndocument will be processed."
+          },
+          {
+              "bbox": [
+                  63,
+                  376,
+                  483,
+                  47
+              ],
+              "content": "\u25cf\u200b Document Status: Initially, all files will show as Processing. Once processed, \nthe status will update to Review. \n\u25cf\u200b Open File: Click on any document to open it and review its content."
+          },
+          {
+              "bbox": [
+                  44,
+                  470,
+                  310,
+                  22
+              ],
+              "content": "Step 5: Editing the Document"
+          },
+          {
+              "bbox": [
+                  63,
+                  505,
+                  459,
+                  48
+              ],
+              "content": "\u25cf\u200b OCR Documents: If you have chosen the OCR operation, the system will \nredirect you to the Editor where you can view and edit the document. \n\u25cf\u200b Edit the Document: Make the necessary edits in the editor."
+          },
+          {
+              "bbox": [
+                  63,
+                  554,
+                  486,
+                  46
+              ],
+              "content": "\u25cf\u200b Save the Document: Once you've made your changes, save the document. \n\u25cf\u200b Versioning: The platform will maintain a version history of the document. You \ncan view and manage previous versions from the editor."
+          },
+          {
+              "bbox": [
+                  63,
+                  682,
+                  474,
+                  64
+              ],
+              "content": "\u25cf\u200b After processing, you can review the document for accuracy, make any \nnecessary edits, and save changes as needed. \n\u25cf\u200b The system tracks all changes and versions, ensuring you can revert to any \nprevious state of the document if required."
+          }
+      ]
+  },
+  {
+      "page": 3,
+      "paragraphs": [
+          {
+              "bbox": [
+                  44,
+                  142,
+                  477,
+                  16
+              ],
+              "content": "If you encounter any issues or need further assistance, feel free to contact our"
+          },
+          {
+              "bbox": [
+                  44,
+                  256,
+                  497,
+                  48
+              ],
+              "content": "This guide provides the basic steps for uploading, processing, and editing your \ndocuments. We hope you find this system useful and easy to navigate. If you need \nfurther assistance, our support team is always available."
+          },
+          {
+              "bbox": [
+                  63,
+                  475,
+                  462,
+                  32
+              ],
+              "content": "\u25cf\u200b Yes, all edited documents maintain a version history. You can access and \nrevert to previous versions through the document editor."
+          }
+      ]
+  }
+]
