@@ -9,22 +9,22 @@ openai = OpenAI(
 )
 
 # Initialize conversation history
-conversation_history = [
-    {
-        "role": "system",
-        "content": (
-            """You will be given an HTML document representing a multi-page document. Your task is to accurately detect and extract complete content sections, such as paragraphs, tables, lists, or specific sections, while preserving their original HTML structure, styles, and attributes. 
+# conversation_history = [
+#     {
+#         "role": "system",
+#         "content": (
+#             """You will be given an HTML document representing a multi-page document. Your task is to accurately detect and extract complete content sections, such as paragraphs, tables, lists, or specific sections, while preserving their original HTML structure, styles, and attributes. 
 
-            Ensure that:  
-            - Content remains in its original format without modifications.  
-            - Empty or irrelevant `<p>` tags and other non-informative elements are ignored.  
-            - If a logical unit of text is split across multiple elements due to formatting, it should be combined appropriately.  
-            - When extracting numbered or requested content, return only the specific section while maintaining structural integrity.  
+#             Ensure that:  
+#             - Content remains in its original format without modifications.  
+#             - Empty or irrelevant `<p>` tags and other non-informative elements are ignored.  
+#             - If a logical unit of text is split across multiple elements due to formatting, it should be combined appropriately.  
+#             - When extracting numbered or requested content, return only the specific section while maintaining structural integrity.  
 
-            Do not include explanations, additional text, or formatting alterations. The response should only contain the extracted content inside proper code blocks, ensuring compatibility with Markdown parsers.
-        """)
-    }
-]
+#             Do not include explanations, additional text, or formatting alterations. The response should only contain the extracted content inside proper code blocks, ensuring compatibility with Markdown parsers.
+#         """)
+#     }
+# ]
 
 
 # Function to send a message and get a response

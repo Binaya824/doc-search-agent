@@ -58,6 +58,8 @@ def upload_file():
         return jsonify({"error": "No file part"}), 400
     
     file = request.files['file']
+
+    print("file ))))))))))))))))" , file)
     
     # If user does not select file, browser also submit an empty part without filename
     if file.filename == '':
@@ -72,6 +74,7 @@ def upload_file():
         filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
         file.save(filepath)
         result = extract_pdf_content(filepath)
+        print("result ))))))))))))))))" , result)
         formatted_result = format_json(result)
         html = generate_html_from_json(formatted_result)
         print(html)

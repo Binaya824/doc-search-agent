@@ -150,7 +150,7 @@ def generate_nested_list(element , page_index):
         nested_html = ""
         if (index == len(element["items"]) - 1) and ("elements" in element and len(element["elements"]) > 0):
             for sub_element in element["elements"]:
-                nested_html += generate_nested_list(sub_element)
+                nested_html += generate_nested_list(sub_element , page_index)
 
         html += f"""<li data-page="{page_index + 1}" data-id="{generate_unique_id()}" style="font-size:{item['style']['size']*aspect_ratio}px;"><p data-page="{page_index + 1}" data-id="{generate_unique_id()}" style="font-size:{item['style']['size']*aspect_ratio}px;font-weight:{'700' if item['style']['bold'] else '400'};font-style:{'italic' if item['style']['italic'] else 'normal'};">{item["content"]}</p>{nested_html}</li>"""
 
